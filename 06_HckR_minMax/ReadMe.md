@@ -1,51 +1,47 @@
-Staircase detail
+Given five positive integers, find the minimum and maximum values that can be calculated by summing exactly four of the five integers. Then print the respective minimum and maximum values as a single line of two space-separated long integers.
 
-This is a staircase of size :
+Example
 
-   #
-  ##
- ###
-####
-Its base and height are both equal to . It is drawn using # symbols and spaces. The last line is not preceded by any spaces.
+The minimum sum is  and the maximum sum is . The function prints
 
-Write a program that prints a staircase of size .
-
+16 24
 Function Description
 
-Complete the staircase function in the editor below.
+Complete the miniMaxSum function in the editor below.
 
-staircase has the following parameter(s):
+miniMaxSum has the following parameter(s):
 
-int n: an integer
+arr: an array of  integers
 Print
 
-Print a staircase as described above.
+Print two space-separated integers on one line: the minimum sum and the maximum sum of  of  elements.
 
 Input Format
 
-A single integer, , denoting the size of the staircase.
+A single line of five space-separated integers.
 
 Constraints
 
- .
 
 Output Format
 
-Print a staircase of size  using # symbols and spaces.
-
-Note: The last line must have  spaces in it.
+Print two space-separated long integers denoting the respective minimum and maximum values that can be calculated by summing exactly four of the five integers. (The output can be greater than a 32 bit integer.)
 
 Sample Input
 
-6 
+1 2 3 4 5
 Sample Output
 
-     #
-    ##
-   ###
-  ####
- #####
-######
+10 14
 Explanation
 
-The staircase is right-aligned, composed of # symbols and spaces, and has a height and width of n = 6
+The numbers are 1, 2, 3, 4, and 5. Calculate the following sums using four of the five integers:
+
+Sum everything except 1, the sum is 2+3+4+5=14.
+Sum everything except 2, the sum is 1+3+4+5=13.
+Sum everything except 3, the sum is 1+2+4+5=12.
+Sum everything except 4, the sum is 1+2+3+5=11.
+Sum everything except 5, the sum is 1+2+3+4=10.
+Hints: Beware of integer overflow! Use 64-bit Integer.
+
+Need help to get started? Try the Solve Me First problem
