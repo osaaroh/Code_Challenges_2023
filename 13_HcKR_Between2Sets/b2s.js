@@ -1,8 +1,11 @@
 function getTotalX(a, b) {
     // Write your code here
+    
     let factorArr1 = [];
     let multipleArr = [];
     let allArrays =[]
+
+
     
     a.forEach((element,index)=>{
         multipleArr[index] = []
