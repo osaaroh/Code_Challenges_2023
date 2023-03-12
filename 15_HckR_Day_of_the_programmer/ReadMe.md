@@ -57,3 +57,7 @@ Sample Output 2
 Explanation 2
 
 Since 1800 is leap year as per Julian calendar. Day lies on 12 September.
+
+Why is September 13th a programmers day?
+Image result for why is the 256th day of the year always september 12
+The Programmer's day is celebrated on the 0x100, 2^8 or 256th day of the year – September 13 on a regular year and September 12 on a leap one. The number 256 relates to the 8-bit byte – a very important unit to the programmers. It represents the maximum number of distinct values in one byte, including the zero.

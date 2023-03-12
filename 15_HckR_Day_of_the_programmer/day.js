@@ -10,3 +10,5 @@ function dayOfProgrammer(year) {
         return("26.09.1918");
     }
 }
+
+//The Programmer's day is celebrated on the 0x100, 2^8 or 256th day of the year – September 13 on a regular year and September 12 on a leap one. The number 256 relates to the 8-bit byte – a very important unit to the programmers. It represents the maximum number of distinct values in one byte, including the zero.
