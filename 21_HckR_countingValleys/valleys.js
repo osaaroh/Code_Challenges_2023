@@ -3,7 +3,7 @@ function countingValleys(steps, path) {
     let seaLevel = 0;
     let valleyCount = 0;
     let splitPath = path.split("")
-    splitPath.forEach((step,index)=>{
+    splitPath.forEach((step)=>{
         if(step=="U"){
             seaLevel += 1;
             if(seaLevel===0){
